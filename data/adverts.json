@@ -1,0 +1,514 @@
+[
+ {
+  "id": "ad-01",
+  "title": "Graduate Data Analyst",
+  "company": "Northwind Retail",
+  "body": "We are looking for a Graduate Data Analyst to join our commercial insight team. You will build dashboards, answer questions from the trading team, and keep our weekly reporting running. You should be comfortable with SQL and Excel. Python is useful but we will teach you. This role is based in our Leeds office five days a week. No prior commercial experience needed.",
+  "gold": {
+   "title_normalised": "Data Analyst",
+   "seniority": "junior",
+   "work_mode": "onsite",
+   "must_have_skills": [
+    "SQL",
+    "Excel"
+   ],
+   "years_required": 0
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-02",
+  "title": "Senior Machine Learning Engineer",
+  "company": "Vectorly",
+  "body": "Vectorly is hiring a Senior Machine Learning Engineer to own our recommendation stack end to end. You will take models from notebook to production, own the serving layer, and mentor two junior engineers. We expect at least six years of industry experience, strong Python, and real experience running models in production on AWS. Kubernetes is a plus. Fully remote within the UK.",
+  "gold": {
+   "title_normalised": "Machine Learning Engineer",
+   "seniority": "senior",
+   "work_mode": "remote",
+   "must_have_skills": [
+    "Python",
+    "AWS"
+   ],
+   "years_required": 6
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-03",
+  "title": "Senior Data Scientist",
+  "company": "Halden Health",
+  "body": "Join our clinical analytics group as a Data Scientist. You will work with anonymised patient records to build risk models that clinicians actually use. We want someone with a couple of years of applied experience, solid statistics, and Python. Experience with healthcare data is welcome but not required. We work from the Manchester office on Tuesdays and Wednesdays, the rest is up to you.",
+  "gold": {
+   "title_normalised": "Data Scientist",
+   "seniority": "mid",
+   "work_mode": "hybrid",
+   "must_have_skills": [
+    "Python",
+    "Statistics"
+   ],
+   "years_required": 2
+  },
+  "note": "TRAP: title says Senior, body says a couple of years"
+ },
+ {
+  "id": "ad-04",
+  "title": "AI Engineer",
+  "company": "Loomis Labs",
+  "body": "We need an AI Engineer to build retrieval systems over our document archive. You will design chunking strategies, choose embedding models, and build the evaluation that tells us whether any of it works. Strong Python required. Experience with vector databases and LangChain is expected. You should be able to reason about latency and cost, not just accuracy. Three to five years in a similar role.",
+  "gold": {
+   "title_normalised": "AI Engineer",
+   "seniority": "mid",
+   "work_mode": "unknown",
+   "must_have_skills": [
+    "Python",
+    "LangChain",
+    "Vector databases"
+   ],
+   "years_required": 3
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-05",
+  "title": "Junior Software Developer",
+  "company": "Tarnhill Systems",
+  "body": "A great first role for someone starting out. You will join a team of six working on our logistics platform. We use Python on the backend and React on the front. You will pair with a senior developer most days. We are in the Bristol office together on Mondays and Thursdays and work from home otherwise. Any degree or bootcamp background considered.",
+  "gold": {
+   "title_normalised": "Software Developer",
+   "seniority": "junior",
+   "work_mode": "hybrid",
+   "must_have_skills": [
+    "Python",
+    "React"
+   ],
+   "years_required": 0
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-06",
+  "title": "Senior Data Scientist",
+  "company": "Correlate",
+  "body": "We are growing our forecasting team and need a Senior Data Scientist. You will own the demand model that drives our inventory decisions, worth several million a year. Deep statistical grounding required, strong Python, and experience communicating with people who do not want to hear about confidence intervals. Seven plus years. We are fully distributed and always have been.",
+  "gold": {
+   "title_normalised": "Data Scientist",
+   "seniority": "senior",
+   "work_mode": "remote",
+   "must_have_skills": [
+    "Python",
+    "Statistics"
+   ],
+   "years_required": 7
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-07",
+  "title": "Machine Learning Engineer",
+  "company": "Petrel Marine",
+  "body": "Petrel builds monitoring systems for offshore vessels. We are hiring a Machine Learning Engineer to work on anomaly detection in sensor data. You will need Python and PyTorch, and you should be happy getting into the messy reality of time series that nobody cleaned. Aberdeen based, in the office, because the hardware is here. Two to four years experience.",
+  "gold": {
+   "title_normalised": "Machine Learning Engineer",
+   "seniority": "mid",
+   "work_mode": "onsite",
+   "must_have_skills": [
+    "Python",
+    "PyTorch"
+   ],
+   "years_required": 2
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-08",
+  "title": "Senior AI Engineer",
+  "company": "Grantwell",
+  "body": "Senior AI Engineer wanted to lead our agent platform. You will design the tool calling layer, own the evaluation harness, and set the technical direction for a team of four. We want someone who has shipped LLM products to real users and has opinions about why most of them fail. Python and TypeScript. Eight years overall, at least two with language models. London, three days a week in the office.",
+  "gold": {
+   "title_normalised": "AI Engineer",
+   "seniority": "senior",
+   "work_mode": "hybrid",
+   "must_have_skills": [
+    "Python",
+    "TypeScript"
+   ],
+   "years_required": 8
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-09",
+  "title": "Lead Data Engineer",
+  "company": "Milbrook Finance",
+  "body": "We are looking for a Data Engineer to build and maintain the pipelines feeding our risk platform. Airflow, dbt, and a lot of SQL. You will work closely with analysts who will tell you when your pipeline broke. Some Python. We would like three years or so, but we care more about whether you can debug a DAG at four in the afternoon than about the number. Hybrid, two days in our Edinburgh office.",
+  "gold": {
+   "title_normalised": "Data Engineer",
+   "seniority": "mid",
+   "work_mode": "hybrid",
+   "must_have_skills": [
+    "SQL",
+    "Airflow",
+    "dbt"
+   ],
+   "years_required": 3
+  },
+  "note": "TRAP: title says Lead, body says three years or so"
+ },
+ {
+  "id": "ad-10",
+  "title": "NLP Engineer",
+  "company": "Verity Legal",
+  "body": "Verity applies language models to contract review. We need an NLP Engineer to improve how we extract clauses and obligations from long documents. Python required. You should understand tokenisation, context limits, and why a long document is harder than a short one. Familiarity with transformers expected. Four years. We have an office in Dublin but nobody is required to use it.",
+  "gold": {
+   "title_normalised": "NLP Engineer",
+   "seniority": "mid",
+   "work_mode": "remote",
+   "must_have_skills": [
+    "Python",
+    "Transformers"
+   ],
+   "years_required": 4
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-11",
+  "title": "Analytics Engineer",
+  "company": "Breakwater",
+  "body": "Analytics Engineer to sit between our data engineers and our analysts. You will own the dbt models, the testing, and the documentation that stops people asking what a column means. Strong SQL is the main requirement. Some Python. We like people who write things down. Five years would be ideal. Flexible working, come in when it helps.",
+  "gold": {
+   "title_normalised": "Analytics Engineer",
+   "seniority": "mid",
+   "work_mode": "hybrid",
+   "must_have_skills": [
+    "SQL",
+    "dbt"
+   ],
+   "years_required": 5
+  },
+  "note": "work_mode genuinely arguable: 'flexible working, come in when it helps'"
+ },
+ {
+  "id": "ad-12",
+  "title": "Principal Research Scientist",
+  "company": "Aldermere Institute",
+  "body": "The Institute seeks a Principal Research Scientist to lead a programme on efficient inference. You will publish, supervise doctoral students, and set a three year research agenda. A doctorate and a strong publication record are required. Ten or more years post doctorate. The post is based at our Cambridge site and attendance is expected.",
+  "gold": {
+   "title_normalised": "Research Scientist",
+   "seniority": "senior",
+   "work_mode": "onsite",
+   "must_have_skills": [
+    "PhD",
+    "Research publication record"
+   ],
+   "years_required": 10
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-13",
+  "title": "Junior Data Scientist",
+  "company": "Fernhill Energy",
+  "body": "A Junior Data Scientist role on our grid forecasting team. You will start by maintaining existing models and move into building your own. We will give you a mentor and time to learn. Python and some statistics needed, which could come from a degree or from your own projects. No commercial experience required. Remote first, with a team week every quarter in Glasgow.",
+  "gold": {
+   "title_normalised": "Data Scientist",
+   "seniority": "junior",
+   "work_mode": "remote",
+   "must_have_skills": [
+    "Python",
+    "Statistics"
+   ],
+   "years_required": 0
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-14",
+  "title": "Senior Backend Engineer",
+  "company": "Cadence Pay",
+  "body": "Senior Backend Engineer for our payments core. High volume, low latency, and consequences when it goes wrong. Go or Python. You will be on call one week in five. We want someone who has operated a system at scale and can explain a postmortem without blaming anyone. Six years minimum. London office, four days a week.",
+  "gold": {
+   "title_normalised": "Backend Engineer",
+   "seniority": "senior",
+   "work_mode": "onsite",
+   "must_have_skills": [
+    "Go",
+    "Python"
+   ],
+   "years_required": 6
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-15",
+  "title": "Machine Learning Intern",
+  "company": "Stalbridge Media",
+  "body": "A six month internship on our content ranking team. You will work alongside two machine learning engineers on a scoped project with a real deliverable. We expect you to be partway through a degree and comfortable with Python. Everything else we will teach. Our office is in Cardiff and we would like you here, though we understand if some days do not work.",
+  "gold": {
+   "title_normalised": "Machine Learning Engineer",
+   "seniority": "junior",
+   "work_mode": "onsite",
+   "must_have_skills": [
+    "Python"
+   ],
+   "years_required": 0
+  },
+  "note": "work_mode arguable: office preferred but flexible"
+ },
+ {
+  "id": "ad-16",
+  "title": "Senior Data Analyst",
+  "company": "Pellowe Group",
+  "body": "We are recruiting a Senior Data Analyst. You will produce the monthly board pack, maintain our reporting suite, and respond to ad hoc requests from across the business. Advanced Excel is essential and SQL is strongly preferred. One to two years of analytical experience is enough, the senior in the title reflects the seniority of the stakeholders rather than the role. Birmingham office.",
+  "gold": {
+   "title_normalised": "Data Analyst",
+   "seniority": "junior",
+   "work_mode": "onsite",
+   "must_have_skills": [
+    "Excel",
+    "SQL"
+   ],
+   "years_required": 1
+  },
+  "note": "TRAP: title says Senior, body says one to two years and the advert admits why"
+ },
+ {
+  "id": "ad-17",
+  "title": "Machine Learning Engineer",
+  "company": "Quillon",
+  "body": "Quillon is hiring a Machine Learning Engineer. You will work on our search ranking models. Requirements: Python, and experience training and evaluating models on large datasets. Nice to have: Spark, Kubernetes, a publication or two, Rust. We are not fussy about years, we are fussy about whether you can show us something you built.",
+  "gold": {
+   "title_normalised": "Machine Learning Engineer",
+   "seniority": "mid",
+   "work_mode": "unknown",
+   "must_have_skills": [
+    "Python"
+   ],
+   "years_required": null
+  },
+  "note": "TRAP: nice-to-haves must NOT appear in must_have_skills. No location. No years"
+ },
+ {
+  "id": "ad-18",
+  "title": "AI Product Engineer",
+  "company": "Hartwin",
+  "body": "We need someone who sits between product and engineering to build AI features our customers actually use. You will prototype quickly, run small experiments with real users, and kill things that do not work. TypeScript and some Python. Prompt engineering experience valued. Three years in product engineering. Remote, anywhere in Europe, with a get together twice a year.",
+  "gold": {
+   "title_normalised": "AI Engineer",
+   "seniority": "mid",
+   "work_mode": "remote",
+   "must_have_skills": [
+    "TypeScript",
+    "Python"
+   ],
+   "years_required": 3
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-19",
+  "title": "Lead Data Scientist",
+  "company": "Ashcombe Insurance",
+  "body": "Lead Data Scientist for our pricing team. You will own the pricing models, manage three data scientists, and be accountable to the regulator for how our models behave. Deep statistical and modelling skill required, plus the ability to explain a model to someone who can fine us. Python and R. Nine years. We are in the office in Norwich on Wednesdays.",
+  "gold": {
+   "title_normalised": "Data Scientist",
+   "seniority": "senior",
+   "work_mode": "hybrid",
+   "must_have_skills": [
+    "Python",
+    "R",
+    "Statistics"
+   ],
+   "years_required": 9
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-20",
+  "title": "Junior AI Engineer",
+  "company": "Rowan Interactive",
+  "body": "Junior AI Engineer to help build conversational features in our games. You will write prompts, build small tools around a language model, and test them with players. We want curiosity more than experience. Python helpful. If you have built something with an API and can tell us what broke, that is enough. Our studio is in Brighton. Come in when you like.",
+  "gold": {
+   "title_normalised": "AI Engineer",
+   "seniority": "junior",
+   "work_mode": "hybrid",
+   "must_have_skills": [
+    "Python"
+   ],
+   "years_required": 0
+  },
+  "note": "work_mode arguable: office exists, attendance optional"
+ },
+ {
+  "id": "ad-21",
+  "title": "Staff Software Engineer",
+  "company": "Kelbrook",
+  "body": "Staff Software Engineer to work across our platform teams on cross cutting technical problems. You will not own a product. You will own the problems nobody else can get to. Twelve years of engineering experience, at least four at senior or above. Strong in at least two of Go, Python, Rust. We are fully remote and have no offices at all.",
+  "gold": {
+   "title_normalised": "Software Engineer",
+   "seniority": "senior",
+   "work_mode": "remote",
+   "must_have_skills": [
+    "Go",
+    "Python",
+    "Rust"
+   ],
+   "years_required": 12
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-22",
+  "title": "Data Scientist, Marketing",
+  "company": "Tyndall Brands",
+  "body": "Data Scientist for the marketing function. Attribution modelling, campaign measurement, and telling the marketing director that the campaign did not work. SQL and Python essential. Experience with causal inference or experimentation strongly preferred. Around four years. Two days a week in our London office.",
+  "gold": {
+   "title_normalised": "Data Scientist",
+   "seniority": "mid",
+   "work_mode": "hybrid",
+   "must_have_skills": [
+    "SQL",
+    "Python"
+   ],
+   "years_required": 4
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-23",
+  "title": "MLOps Engineer",
+  "company": "Fenstanton",
+  "body": "MLOps Engineer to build the platform our data scientists deploy onto. Docker, Kubernetes, CI pipelines, and model monitoring. Python for the tooling. You should have strong opinions about reproducibility. Five years in infrastructure or platform work, some of it near machine learning. Fully remote, UK hours.",
+  "gold": {
+   "title_normalised": "MLOps Engineer",
+   "seniority": "mid",
+   "work_mode": "remote",
+   "must_have_skills": [
+    "Docker",
+    "Kubernetes",
+    "Python"
+   ],
+   "years_required": 5
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-24",
+  "title": "Research Engineer",
+  "company": "Molyneux AI",
+  "body": "Research Engineer to turn papers into working code. You will read recent work on efficient attention, implement it, and measure whether the claimed speedup survives contact with our workloads. Strong Python and PyTorch. Comfortable reading a paper and finding the detail the authors skipped. Masters or doctorate preferred. Four to six years.",
+  "gold": {
+   "title_normalised": "Research Engineer",
+   "seniority": "mid",
+   "work_mode": "unknown",
+   "must_have_skills": [
+    "Python",
+    "PyTorch"
+   ],
+   "years_required": 4
+  },
+  "note": "No location mentioned anywhere"
+ },
+ {
+  "id": "ad-25",
+  "title": "Senior Business Intelligence Analyst",
+  "company": "Ardwell Logistics",
+  "body": "BI Analyst to own our Power BI estate. You will build reports, train the people who use them, and gradually retire the forty spreadsheets this company runs on. Power BI and SQL essential. Any experience with dbt would help. Two years. Our Coventry office, five days.",
+  "gold": {
+   "title_normalised": "Business Intelligence Analyst",
+   "seniority": "mid",
+   "work_mode": "onsite",
+   "must_have_skills": [
+    "Power BI",
+    "SQL"
+   ],
+   "years_required": 2
+  },
+  "note": "TRAP: title says Senior, body says two years"
+ },
+ {
+  "id": "ad-26",
+  "title": "Head of Data",
+  "company": "Seaton Group",
+  "body": "We are appointing a Head of Data to build the function from a standing start. You will hire the first four people, choose the stack, and set what good looks like. You will also write code for the first year, because there will be nobody else. Fifteen years, including time leading. London, flexible.",
+  "gold": {
+   "title_normalised": "Head of Data",
+   "seniority": "senior",
+   "work_mode": "hybrid",
+   "must_have_skills": [
+    "Leadership",
+    "Data strategy"
+   ],
+   "years_required": 15
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-27",
+  "title": "Computer Vision Engineer",
+  "company": "Pathway Robotics",
+  "body": "Computer Vision Engineer for our warehouse robots. Object detection, segmentation, and the unglamorous work of making it run on the hardware we can afford. Python, PyTorch, and real experience with deployment constraints. CUDA useful. Three to five years. You need to be in Oxford with the robots.",
+  "gold": {
+   "title_normalised": "Computer Vision Engineer",
+   "seniority": "mid",
+   "work_mode": "onsite",
+   "must_have_skills": [
+    "Python",
+    "PyTorch"
+   ],
+   "years_required": 3
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-28",
+  "title": "Prompt Engineer",
+  "company": "Linwood Support",
+  "body": "We are hiring a Prompt Engineer to improve our customer support assistant. You will write and test prompts, build evaluation sets, and work out why the assistant keeps apologising. No programming background required, though you will need to be comfortable with structured thinking and spreadsheets. We will teach you the technical parts. Remote within the UK.",
+  "gold": {
+   "title_normalised": "Prompt Engineer",
+   "seniority": "junior",
+   "work_mode": "remote",
+   "must_have_skills": [
+    "Evaluation",
+    "Structured thinking"
+   ],
+   "years_required": 0
+  },
+  "note": "Deliberately non-coding role, tests whether the model assumes engineering means Python"
+ },
+ {
+  "id": "ad-29",
+  "title": "Senior NLP Scientist",
+  "company": "Carrock Health",
+  "body": "Senior NLP Scientist to work on clinical text. You will build models that read discharge summaries and flag what a clinician needs to see. Python, strong NLP background, and the judgement to know when a model should abstain rather than guess. Experience with clinical data and governance required. Seven years. Hybrid, two days in Leeds.",
+  "gold": {
+   "title_normalised": "NLP Scientist",
+   "seniority": "senior",
+   "work_mode": "hybrid",
+   "must_have_skills": [
+    "Python",
+    "NLP"
+   ],
+   "years_required": 7
+  },
+  "note": ""
+ },
+ {
+  "id": "ad-30",
+  "title": "Data Analyst",
+  "company": "Mersham Council",
+  "body": "Data Analyst for the local authority. You will work with housing, social care and finance teams to answer questions with the data we already hold. Excel and SQL. Patience. An interest in public service. We do not expect commercial experience and we will consider career changers. The role is based at our offices and we work on site.",
+  "gold": {
+   "title_normalised": "Data Analyst",
+   "seniority": "junior",
+   "work_mode": "onsite",
+   "must_have_skills": [
+    "Excel",
+    "SQL"
+   ],
+   "years_required": 0
+  },
+  "note": ""
+ }
+]
