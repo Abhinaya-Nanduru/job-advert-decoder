@@ -100,7 +100,24 @@ def recent(limit: int = 20):
     return {"rows": store.recent(min(limit, 100)), "stats": store.stats(),
             "backend": store.backend(), "warning": store.warning()}
 
+@app.get("/api/metrics")
+def metrics():
+    if not STORE_READY:
+        return JSONResponse({"error": STORE_ERROR}, status_code=503)
 
+    try:
+        return {
+            "backend": store.backend(),
+            "window": "last 24 hours",
+            **store.metrics(),
+        }
+    except Exception as err:
+        return JSONResponse(
+            {"error": f"{type(err).__name__}: {err}"},
+            status_code=503,
+        )
+
+    
 @app.get("/")
 def home():
     return FileResponse(os.path.join(HERE, "static", "index.html"))

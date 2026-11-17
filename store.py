@@ -15,6 +15,7 @@ import json
 import os
 import sqlite3
 import time
+import math
 from contextlib import closing
 
 SQLITE_PATH = os.environ.get("SQLITE_PATH",
@@ -139,3 +140,61 @@ def stats():
     return {"requests": n or 0,
             "mean_ms": round(avg, 1) if avg else None,
             "total_tokens": tok or 0}
+def metrics():
+    import statistics
+
+    init()
+
+    if backend() == "postgres":
+        with _pg() as conn, conn.cursor() as cur:
+            cur.execute(
+                "SELECT created_at, ok, total_ms, tokens, trace FROM requests"
+            )
+            rows = cur.fetchall()
+    else:
+        with closing(sqlite3.connect(SQLITE_PATH)) as conn:
+            rows = conn.execute(
+                "SELECT created_at, ok, total_ms, tokens, trace FROM requests"
+            ).fetchall()
+
+    now = time.time()
+    last_hour = [r for r in rows if now - r[0] <= 3600]
+    last_day = [r for r in rows if now - r[0] <= 86400]
+
+    response_times = sorted(
+        r[2] for r in last_day if r[2] is not None
+    )
+
+    p95 = (
+        response_times[max(0, math.ceil(len(response_times) * 0.95) - 1)]
+        if response_times else None
+    )
+
+    failures = {}
+
+    for row in last_day:
+        trace = row[4]
+        if trace:
+            stages = json.loads(trace)
+            for stage in stages:
+                if not stage.get("ok", True):
+                    name = stage.get("name", "unknown")
+                    failures[name] = failures.get(name, 0) + 1
+
+    total = len(last_day)
+    refused = sum(1 for r in last_day if not r[1])
+    tokens = sum(r[3] or 0 for r in rows)
+
+    return {
+        "requests_last_hour": len(last_hour),
+        "requests_last_day": total,
+        "refusal_proportion": round(refused / total, 4) if total else 0,
+        "failures_by_stage": failures,
+        "median_response_ms": (
+            round(statistics.median(response_times), 1)
+            if response_times else None
+        ),
+        "p95_response_ms": round(p95, 1) if p95 is not None else None,
+        "total_tokens": tokens,
+        "estimated_cost_usd": round(tokens * 0.30 / 1_000_000, 6)
+    }
