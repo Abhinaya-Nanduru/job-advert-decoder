@@ -302,5 +302,5 @@ class WhenThingsGoWrong(unittest.TestCase):
     def test_demo_mode_is_unaffected_by_any_of_this(self):
         self._with_failing_call(P.ModelUnavailable("should never be called"))
         r = P.run(ADVERT, api_key=None)
-        self.assertTrue(r["ok"])
+        self.assertFalse(r["ok"])
         self.assertEqual(len(r["trace"]), 5)
