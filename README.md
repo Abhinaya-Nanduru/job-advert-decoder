@@ -77,3 +77,5 @@ redeploy.
 Goes in `.env` locally, which is gitignored, or in the host's Environment
 Variables. Never in a file you commit, never in a screenshot, never in the
 group chat. CI fails the build if it finds one.
+
+<!-- Automatic deployment verification -->
